@@ -35,7 +35,7 @@ window.addEventListener("load", () => {
     gsap.from('.ingredient-item', {
         opacity: 0,
         x: -20,
-        duration: 1.5,
+        duration: 0.8,
         stagger: 0.6,
         ease: 'power2.out',
         scrollTrigger: {
@@ -47,7 +47,7 @@ window.addEventListener("load", () => {
     gsap.from('.instruction-step', {
         opacity: 0,
         x: -20,
-        duration: 1.5,
+        duration: 0.8,
         stagger: 0.6,
         ease: 'power2.out',
         scrollTrigger: {
