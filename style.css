@@ -69,7 +69,8 @@ body {
     flex-wrap: wrap;
     max-width: 55rem;
     padding: 2.5rem;
-    margin-block-start: 9rem;
+    margin-block-start: 5rem;
+    margin-block-end: 3rem;
     border-radius: 1.25rem;
 }
 
@@ -112,9 +113,10 @@ body {
     padding-inline-start: 1.5rem;
 }
 
-.ingredients ul li,
+.ingredient-item,
 .instructions ol li {
     padding: 0.3rem;
+    cursor: pointer;
 }
 
 table {
